@@ -1,0 +1,10 @@
+
+p{
+    color: violet;
+    background-color: black;
+}
+
+h1{
+    background-image: url("../img/vf5.jpg");
+    background-size: contain;
+}
