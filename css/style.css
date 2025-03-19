@@ -1,0 +1,34 @@
+.container{
+    max-width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(113, 113, 113);
+    border: 2px solid black;
+
+}
+figure img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    text-align: left;
+}
+
+#meuNome{
+    font-family: serif;
+}
+
+#p1{
+    max-width: 40%;
+    text-align: left;
+    border: 2px solid black;
+    font-size: x-large;
+}
+
+#sp1{
+    width: 50%;
+}
+
+#containerd{
+    display: flex;
+    width: 100%;
+}

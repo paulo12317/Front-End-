@@ -1,0 +1,26 @@
+#p1{
+    font-size: 14px;
+    font-family: serif;
+    font-style: italic;
+}
+
+#p2{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+#p3{
+    font-size: 12px;
+    font-family: monospace;
+    font-style: oblique;
+}
+#p4{
+    font-size: 14px;
+    font-family: cursive;
+    font-style: normal;
+}
+#p5{
+    font-size: 18px;
+    font-family: fantasy;
+    font-style: italic;
+}
