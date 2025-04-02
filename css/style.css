@@ -10,20 +10,26 @@ body{
     background-color: rgb(113, 113, 113);
     border: 2px solid black;
 
+    width: 100%;
 }
-figure img{
+img{
     height: 200px;
     width: 200px;
     border-radius: 100px;
     text-align: left;
 }
 
+#cabecalho{
+    display: flex;
+}
+
 #meuNome{
+    padding-top: 8%;
     font-family: serif;
 }
 
 #p1{
-    max-width: 40%;
+    width: 40%;
     text-align: left;
     border: 2px solid black;
     font-size: x-large;
@@ -31,14 +37,15 @@ figure img{
 
 #sp1{
     width: 50%;
+    display: flex;
 }
 
-.container{
-    display: flex;
-    width: 100%;
-    
-}
+
 
 #p2{
     font-size: large;
+}
+
+#div2{
+    display: flex;
 }
