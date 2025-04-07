@@ -1,0 +1,57 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 70%;
+    height: 55%;
+}
+
+.personagem{
+    width: 30%;
+    height: 40%;
+    
+}
+
+div{
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.personagem[data-classe*="greninja"]{
+    background-color: rgb(125, 125, 200);
+}
+
+.personagem[data-classe*="lucario"]{
+    background-color: rgb(199, 98, 98);
+    padding-top: 4px;
+    
+}
+
+.personagem[data-classe*="gengar"]{
+    background-color: rgb(173, 54, 199);
+}
+
+.personagem[data-classe*="garchomp"]{
+    background-color: rgb(92, 100, 126);
+}
+
+.personagem[data-classe*="metagross"]{
+    background-color: rgb(175, 164, 177);
+}
+
+.personagem[data-classe*="rayquaza"]{
+    background-color: rgb(174, 182, 33);
+    padding-left: 30px;
+}
