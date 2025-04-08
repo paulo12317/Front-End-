@@ -1,6 +1,8 @@
 html, body{
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 main{
@@ -9,6 +11,8 @@ main{
     background-color: gray;
     display: flex;
     flex-wrap: wrap;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 img{
