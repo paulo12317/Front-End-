@@ -1,7 +1,6 @@
 html,body{
     width: 100%;
     height: 100%;
-    margin: 0;
 }
 
 body{
@@ -33,43 +32,23 @@ nav a{
 }
 
 main{
-    height: 75%;
-    width: 95%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    padding-left: 45px;
-}
-
-main div{
-    width: 30%;
-    height: 45%;
-    border: 2px white solid;
+    height: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 8px;
-    padding: 10px;
-    margin-right: 15px;
-    box-shadow: 0 4px 10px rgb(255, 255, 255, 0.5);
+    align-items: center;
+    
 }
 
-main div img{
-    height: 53%;
-    width: 85%;
+main img{
+    height: 150px;
+    width: 150px;
+    box-shadow: 0 4px 10px rgb(255, 255, 255, 0.2);
+    border-radius: 100%;
 }
 
-main div a{
-    text-align: center;
-    width: 20%;
-    color: rgb(181, 181, 181);
-    text-decoration: none;
-    border: 1.5px gray solid;
-    border-radius: 10px;
-}
-
-footer a{
+main a{
     width: 35px;
     height: 35px;
     background-size: contain;
@@ -78,7 +57,7 @@ footer a{
     display: block;
 }
 
-footer a[href*="github"]{
+main a[href*="github"]{
     background-image: url(../img/mdi--github.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -86,17 +65,16 @@ footer a[href*="github"]{
     display: block;
 }
 
-footer a[href*="wa.link"]{
+main a[href*="wa.link"]{
     background-image: url(../img/whatsapp.png);
 }
 
-footer a[href*="instagram"]{
+main a[href*="instagram"]{
     background-image: url(../img/mdi--instagram.png);
 }
 ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     
 }
 
