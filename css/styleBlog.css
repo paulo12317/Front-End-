@@ -40,6 +40,7 @@ main{
     flex-wrap: wrap;
     align-content: center;
     padding-left: 45px;
+    margin-bottom: 0;
 }
 
 main div{
@@ -103,4 +104,8 @@ ul{
 li{
     width: 100px;
     display: inline-block;
+}
+
+main a:hover{
+    box-shadow: 0 4px 10px rgb(255, 255, 255, 0.3);
 }
