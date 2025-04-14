@@ -56,6 +56,12 @@ main div{
     box-shadow: 0 4px 10px rgb(255, 255, 255, 0.5);
 }
 
+main div:hover{
+    box-shadow: 0 4px 10px rgb(255, 255, 255, 1);
+    transition: box-shadow 0.7s, transform 0.7s;
+    transform: scale(1.05) rotate(-1deg);
+}
+
 main div img{
     height: 53%;
     width: 85%;
