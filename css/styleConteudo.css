@@ -45,7 +45,7 @@ h1{
 }
 
 section{
-    width: 70%;
+    width: 90%;
     height: 70%;
     border: 2px white solid;
     border-radius: 10px;
@@ -54,6 +54,11 @@ section{
     display: flex;
     justify-content: center;
     padding-top: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
 }
 
 section a{
