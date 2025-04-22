@@ -17,7 +17,7 @@ function addDecimal(){
 }
 
 function clearText(){
-    textValue = '';
+    textValue = "";
     updateText();
 }
 
