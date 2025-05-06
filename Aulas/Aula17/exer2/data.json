@@ -1,0 +1,34 @@
+{
+    "pessoas" : [
+        {
+            "nome" : "Paulo",
+            "idade" : 16,
+            "cpf" : 12317,
+            "telefone" : 40028922
+        },
+        {
+            "nome" : "jeferson",
+            "idade" : 16,
+            "cpf" : 12318,
+            "telefone" : 40028923
+        },
+        {
+            "nome" : "Amanda",
+            "idade" : 16,
+            "cpf" : 12319,
+            "telefone" : 40028924
+        },
+        {
+            "nome" : "Dani",
+            "idade" : 17,
+            "cpf" : 12320,
+            "telefone" : 40028932
+        },
+        {
+            "nome" : "carioca",
+            "idade" : 17,
+            "cpf" : 12360,
+            "telefone" : 40028944
+        }
+    ]
+}

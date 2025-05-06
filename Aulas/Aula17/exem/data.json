@@ -1,0 +1,22 @@
+{
+    "pessoas": [
+        {
+            "nome" : "Fulano",
+            "idade" : 30,
+            "local" : {
+                "cidade" : "Sao leo",
+                "pais" : "Brasil",
+                "UF" : "RS"
+            }
+        },
+        {
+            "nome" : "Beltrano",
+            "idade" : 32,
+            "local" : {
+                "cidade" : "Porto Alegre",
+                "pais" : "Brasil",
+                "UF" : "RS"
+            }
+        }
+    ]
+}
