@@ -4,10 +4,11 @@ body, html{
 
 }
 
+
 body{
     background-color: black;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times N', Times, serif;
 }
 
 main{
@@ -26,6 +27,7 @@ main{
 }
 
 #fig img{
+    
     width: 300px;
     height: 500px;
 }
@@ -58,22 +60,39 @@ main{
 }
 
 #info{
+    width: 150px;
+    height: 30px;
     position: absolute;
-    bottom: 26%;
-    left: 10%;
+    bottom: 24%;
+    left: 18%;
+}
+
+#tipo1,#tipo2{
+    width: 40px;
+    height: 20px;
+    background-color: #b7b7b7;
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 #info2{
     position: absolute;
-    bottom: 15%;
-    left: 10%;
+    bottom: 12%;
+    left: 15%;
+    border: 2px solid black;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    background-color: gray;
+    border-radius: 8px;
 }
 
 #botoes{
 
     position: absolute;
-    bottom: 8%;
-    left: 12%;
+    bottom: 5%;
+    left: 15%;
 }
 button{
     width: 70px;
@@ -81,7 +100,8 @@ button{
     margin-right: 30px;
     border-radius: 9px;
     border: black 2px solid;
-    background-color: rgb(255, 0, 34);
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 button:hover{
