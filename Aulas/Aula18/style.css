@@ -22,9 +22,10 @@ main{
 
 #container{
     width: 400px;
-    height: 636px;
+    height: 600px;
     position: relative;
     background-image: url(./img/pokedexImg.png);
+    background-size: cover;
 }
 
 #imagemPoke{
@@ -48,6 +49,7 @@ main{
     position: absolute;
     bottom: 31%;
     left: 30%;
+    font-size: x-large;
 }
 
 #idNome{
