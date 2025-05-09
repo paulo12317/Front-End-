@@ -1,3 +1,5 @@
+//todas as variaveis dos elementos do html 
+
 let imgPokemon = document.querySelector("#fotoPoke");
 let formPoke = document.querySelector("#form");
 let inputF = document.querySelector("#inputF");
@@ -12,15 +14,16 @@ let peso = document.querySelector("#peso");
 let altura = document.querySelector("#altura");
 let btnVoltar = document.querySelector("#voltar");
 let btnProximo = document.querySelector("#proximo");
-
 let numeroPokedex = 1;
 
+//buscando a api 
 const fetchPokemon = async(pokemon) => {
     const APIresponse = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
     const data = await APIresponse.json();
     return data;
 }
 
+//função que mostra as informaçoes dos pokemon e as imagens do pokemon buscando na API
 const showPokemon = async(pokemon) =>{
     const dataPokemon = await fetchPokemon(pokemon);
     imgPokemon.src = dataPokemon.sprites.other.showdown.front_default;
@@ -118,12 +121,14 @@ const showPokemon = async(pokemon) =>{
     if (dataPokemon.types[1] != undefined) {tipo2.innerHTML = dataPokemon.types[1].type.name;} else {tipo2.innerHTML = "";}
 }
 
+//adição de evento no input
 formPoke.addEventListener("submit", (event) =>{
     event.preventDefault();
     showPokemon(inputF.value.toLowerCase());
     numeroPokedex = inputF.value
 })
 
+//função do evento de voltar pokemon 
 btnVoltar.addEventListener("click", (event) =>{
     if(numeroPokedex > 1){
         numeroPokedex--
@@ -131,6 +136,7 @@ btnVoltar.addEventListener("click", (event) =>{
     showPokemon(numeroPokedex);
 })
 
+//função do evento de proximo pokemon
 btnProximo.addEventListener("click", (event) =>{
     if(numeroPokedex <1000){
         numeroPokedex++
@@ -139,3 +145,5 @@ btnProximo.addEventListener("click", (event) =>{
 })
 
 showPokemon(numeroPokedex);
+
+
