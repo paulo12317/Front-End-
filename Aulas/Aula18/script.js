@@ -146,4 +146,9 @@ btnProximo.addEventListener("click", (event) =>{
 
 showPokemon(numeroPokedex);
 
-
+// Função que toca o som do Pokémon (chamada por outro botão ou evento)
+const som = document.getElementById('som');
+document.addEventListener('click', () => {
+  som.muted = false;
+  som.play();
+});
