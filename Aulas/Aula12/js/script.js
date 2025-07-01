@@ -12,4 +12,4 @@ function mostraText(texto){
     alert(texto);
 }
 
-titulo.onclick = mostraText("tun tun tun tun tun sahur");
+titulo.onclick = mostraText("tun tun tun tun tun tuh tuh sahur");
