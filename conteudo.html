@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -9,12 +9,15 @@
 </head>
 
 <body>
+    <canvas>
+
+    </canvas>
     <nav>
         <img src="./img/ph.png" alt="logo">
-        <div>
+        <div id="links">
             <a href="./index.html">INDEX</a>
             <a href="./blog.html">BLOG</a>
-            <a href="./contato.html">CONTATO</a>
+            
         </div>
 
     </nav>
@@ -25,7 +28,7 @@
                 <h2>🔍 Busca</h2>
                 <form action="https://www.google.com.br/search" id="formbusca">
                     <input type="search" name="q" id="inputlupa">
-                    <input type="image" src="./" alt="lupa">
+                    <input id="lupa" type="image" src="./img/lupa-removebg-preview.png" alt="lupa">
                 </form>
             </div>
             <ul class="menu">
@@ -110,6 +113,9 @@
             <li><a href="https://github.com/paulo12317">github</a></li>
         </ul>
     </footer>
+    <script src="./script/jquery.min.js"></script>
+    <script src="./script/constellation.js"></script>
+    <script src="./script/script.js"></script>
     <script src="./script/conteudo.js"></script>
 </body>
 
